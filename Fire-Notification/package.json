@@ -1,0 +1,29 @@
+{
+  "name": "hk-notification",
+  "version": "1.0.0",
+  "description": "hk-notification for in-house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "fcm-node": "^1.6.1",
+    "firebase-admin": "^9.1.1",
+    "fs": "^0.0.1-security",
+    "js": "^0.1.0",
+    "kafka": "^0.2.3",
+    "node-cron": "^3.0.0",
+    "kafkajs": "^1.15.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.3.5",
+    "throttled-queue": "^2.1.2"
+  }
+}
